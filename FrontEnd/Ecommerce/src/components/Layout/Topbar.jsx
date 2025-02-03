@@ -14,7 +14,7 @@ function Topbar() {
             <CiTwitter />
           </div>
           <div className="center text-center flex-1">
-            <h1>We ship Worldwide - fast and reliable shipping</h1>
+            <h1>From Our Closet to Yours – Fast, Fashionable Shipping! 🌟🛍️</h1>
           </div>
           <div className="right hidden md:flex">+91 8856077610</div>
         </div>
