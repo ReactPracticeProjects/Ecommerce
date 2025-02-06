@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../Common/Header'
+import Footer from '../Common/Footer'
 
 function UserLayout() {
   return (
     <>
    <Header/>
-   <h1>Hello</h1>
+
    {/* Main Containt */}
    {/* Footer */}
+   <Footer/>
     
     </>
   )
