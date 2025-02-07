@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Common/Header'
 import Footer from '../Common/Footer'
+import { Outlet } from 'react-router-dom'
 
 function UserLayout() {
   return (
@@ -8,6 +9,9 @@ function UserLayout() {
    <Header/>
 
    {/* Main Containt */}
+   <main>
+    <Outlet/>
+   </main>
    {/* Footer */}
    <Footer/>
     

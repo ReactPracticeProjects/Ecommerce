@@ -23,7 +23,7 @@ function Navbar() {
   return (
     <>
       <nav className="sticky top-0 bg-white shadow-md z-50">
-        <div className="container mx-auto flex justify-between items-center py-4 px-6">
+        <div className="container mx-auto flex justify-between items-center py-1 px-6">
           {/* Left logo */}
           <Link to="#" className="flex-shrink-0">
             <img src={logo} className="w-24 h-16 object-contain hover:opacity-90 transition-opacity" alt="Logo" />
