@@ -26,7 +26,7 @@ function CartContent() {
     <>
     
     {cardproduct.map((product,index)=>{return (
-       <div className="cardproductcontainer border justify-around p-2 shadow-md m-2 flex">
+       <div key={index} className="cardproductcontainer border justify-around p-2 shadow-md m-2 flex">
         <div className="productimg">
             <img src={product.img} className='w-20 object-cover rounded' alt="" />
         </div>
